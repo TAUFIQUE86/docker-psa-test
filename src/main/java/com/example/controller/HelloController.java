@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1/message")
+
 public class HelloController {
 
 	@GetMapping("/message")
 	public String helloMsg() {
 		
 		
-		return "Docker called here :";
+		return "Docker called from Bengaluru only:";
 	}
 }
